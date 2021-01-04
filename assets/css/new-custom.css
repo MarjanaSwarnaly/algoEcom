@@ -1,0 +1,54 @@
+/* Top CSS */
+
+header {
+  background: linear-gradient(109.6deg, rgba(44, 83, 131, 1) 18.9%, rgba(95, 175, 201, 1) 91.1%);
+}
+
+.top-bar {
+  /* background-image: linear-gradient( 109.6deg,  rgba(44,83,131,1) 18.9%, rgba(95,175,201,1) 91.1% ); */
+
+  background-image: linear-gradient(112.1deg, rgb(40, 48, 73) 11.4%, rgba(63, 76, 119, 1) 70.2%);
+
+}
+
+/*Top Cart CSS */
+.top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .price {
+  color: rgba(63, 76, 119, 1) !important;
+}
+
+.top-cart-row .dropdown-cart .dropdown-menu .cart-total .price {
+  color: rgba(63, 76, 119, 1) !important;
+
+}
+
+/* button Primary CSS */
+.btn-primary {
+  background-image: linear-gradient(109.6deg, rgba(44, 83, 131, 1) 18.9%, rgba(95, 175, 201, 1) 91.1%);
+
+}
+
+.btn-primary:hover,
+.btn-black:hover,
+.btn-primary:focus,
+.btn-black:focus {
+  background-image: linear-gradient(112.1deg, rgba(32, 38, 57, 1) 11.4%, rgba(63, 76, 119, 1) 70.2%);
+}
+
+/*top bar icon  */
+.cnt-account span i {
+
+  margin-right: 5px;
+  color: #fff;
+
+}
+
+.top-bar .cnt-account ul>li a:hover {
+
+  color: aquamarine !important;
+}
+
+
+
+.top-bar .cnt-block .list-inline>li>a .value:hover {
+  color: aquamarine;
+}
