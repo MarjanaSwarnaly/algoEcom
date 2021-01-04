@@ -453,10 +453,12 @@ img[src="assets/images/blank.gif"] {
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
   border-bottom: 1px solid #e3e3e3;
-  padding-bottom: 12px;
+  padding: 12px;
   text-transform: uppercase;
   font-weight: bold;
   margin-top: 0px;
+  background-image: radial-gradient(circle 993px at 0.5% 50.5%, rgba(95, 175, 201, 0.37) 0%,
+      rgba(245, 247, 252, 1) 100.2%);
 }
 
 .featured-product .section-title {
@@ -506,7 +508,7 @@ img[src="assets/images/blank.gif"] {
 
 /*carousel control button*/
 .sidebar-widget .custom-carousel .owl-controls {
-  right: 0px
+  right: 8px
 }
 
 .custom-carousel .owl-controls {
@@ -531,7 +533,7 @@ img[src="assets/images/blank.gif"] {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  background: #dddddd;
+  background: rgba(63, 76, 119, 1);
 }
 
 .custom-carousel .owl-controls .owl-prev:before {
@@ -558,7 +560,7 @@ img[src="assets/images/blank.gif"] {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  background: #dddddd;
+  background: rgba(63, 76, 119, 1);
 }
 
 .custom-carousel .owl-controls .owl-next:before {
@@ -3208,7 +3210,7 @@ a {
 }
 
 .info-boxes-inner {
-  background:  rgba(63,76,119,1);
+  background: rgba(63, 76, 119, 1);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
 }
 
@@ -3218,7 +3220,7 @@ a {
 .info-boxes .info-box {
   padding: 24px 25px;
   text-align: center;
-  border-right: 1px rgba(95,175,201,1) solid;
+  border-right: 1px rgba(95, 175, 201, 1) solid;
 }
 
 .info-boxes .info-box .icon {
@@ -3396,8 +3398,9 @@ a {
   margin: 0px;
   border-radius: 6px;
 }
-.product .cart .action ul li.lnk.wishlist:hover{
-  background: rgba(95,175,201,1);
+
+.product .cart .action ul li.lnk.wishlist:hover {
+  background: rgba(95, 175, 201, 1);
 }
 
 .tag {
@@ -3424,12 +3427,12 @@ a {
 }
 
 .tag.new {
-  background-image: linear-gradient( 111.6deg,  rgba(174,68,223,1) 27.3%, rgba(246,135,135,1) 112.7% );
+  background-image: linear-gradient(111.6deg, rgba(174, 68, 223, 1) 27.3%, rgba(246, 135, 135, 1) 112.7%);
 }
 
 .tag.hot {
   background-color: #FBAB7E;
-background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
 
 }
 
@@ -3464,7 +3467,7 @@ background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
 .cart .action .add-cart-button .btn.btn-primary.icon {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
-  background:rgba(95,175,201,1);
+  background: rgba(95, 175, 201, 1);
   color: #fff
 }
 
